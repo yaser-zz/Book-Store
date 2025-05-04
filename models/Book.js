@@ -29,7 +29,7 @@ const BookSchema = new mongoose.Schema({
     cover: {
         type: String,
         required: true,
-        enum: ["Soft Cover","Hard Cover"]
+        enum: ["hard cover", "soft cover"]
     }
 }, {timestamps: true}
 );
